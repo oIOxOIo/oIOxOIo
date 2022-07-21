@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://metrics.lecoq.io/oiOxOio?template=classic&config.timezone=Asia%2FShanghai">
+  <img src="https://metrics.lecoq.io/oiOxOio?template=classic&base.indepth=false&base.hireable=false&config.timezone=Asia%2FShanghai">
 </div>
 
 

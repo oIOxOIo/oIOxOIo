@@ -1,6 +1,7 @@
+
 <!-- snake -->
 <div align="center">
-  ![](resource/github-contribution-grid-snake.svg)
+  <img src="resource/github-contribution-grid-snake.svg" />
 </div>
 
 

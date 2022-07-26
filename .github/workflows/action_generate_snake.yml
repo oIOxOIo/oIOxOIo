@@ -2,8 +2,8 @@ name: generate snake animation
 
 on:
   # run automatically every 6 hours
-#   schedule:
-#     - cron: "0 */8 * * *" 
+  schedule:
+    - cron: "0 */8 * * *" 
   
   # allows to manually run the job at any time
   workflow_dispatch:
@@ -32,7 +32,7 @@ jobs:
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          publish_branch: output
+          publish_branch: main
           publish_dir: dist
           destination_dir: dist
           github_token: ${{ secrets.GITHUB_TOKEN }}
